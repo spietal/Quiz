@@ -1,0 +1,33 @@
+QUIZ = [
+{
+	"questionText": "What is the answer?",
+	"answers": [
+		"answer1",
+		"answer2",
+		"answer3",
+		"answer4"
+	],
+	"correctAnswer": 1,
+},
+{
+	"questionText": "What is the answer to this question?",
+	"answers": [
+		"answer12",
+		"answer22",
+		"answer32",
+		"answer42"
+	],	
+	"correctAnswer": 3,
+},
+{
+	"questionText": "Indicate which answer is correct.",
+	"answers": [
+		"pencil",
+		"pen",
+		"paper",
+		"highlighter"
+		],
+		"correctAnswer": 2,
+}
+
+]

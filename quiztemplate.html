@@ -1,0 +1,14 @@
+{{#.}}
+
+<p>{{questionText}}</p>
+<ul class="quiz-answers">
+	{{#answers}}
+	<li>
+	<input type="radio" name="{{questionText}}" value="{{.}}">
+		{{.}}
+	</li>
+	{{/answers}}
+</ul>
+
+
+{{/.}}
