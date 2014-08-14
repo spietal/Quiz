@@ -60,6 +60,16 @@ $(function() {
 		}
 		var submittedAnswer = getAnswerById(submittedAnswerId, question);
 		var isCorrect = isCorrectAnswer(submittedAnswer);
+
+
+		if (isCorrect) {
+			$("#question-container-"+question.qId).addClass("right-answer");
+			$("#question-container-"+question.qId).removeClass("wrong-answer");
+		}
+		else {
+			$("#question-container-"+question.qId).addClass("wrong-answer");
+			$("#question-container-"+question.qId).removeClass("right-answer");
+		}
 		return isCorrect;
 	};
 

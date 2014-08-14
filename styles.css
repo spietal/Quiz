@@ -1,5 +1,12 @@
 .quiz-answers
 {
     list-style-type: none;
-    font-family: Helvetica;
+}
+
+.wrong-answer {
+	color: red;
+}
+
+.right-answer {
+	color: blue;
 }
