@@ -3,14 +3,14 @@
     list-style-type: none;
 }
 
-.wrong-answer {
-	color: red;
+.well {
+	background-color: #F3F3F3;
 }
 
 .right-answer {
-	color: #006699;
+	color: #4F9CD9;
 }
 
-.well {
-	background-color: #F1ECD6;
+.wrong-answer {
+	color: red;
 }
