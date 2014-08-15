@@ -1,3 +1,8 @@
+h1 {
+	font-size: 50px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
 .quiz-answers
 {
     list-style-type: none;
@@ -16,6 +21,6 @@
 }
 
 .alert-info {
-	background-color: #FCFC9C;
+	background-color: #FCFCD9;
 }
 
