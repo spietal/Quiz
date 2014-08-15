@@ -1,5 +1,5 @@
 h1 {
-	font-size: 50px;
+	font-size: 55px;
 	font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -9,7 +9,7 @@ h1 {
 }
 
 .well {
-	background-color: #F3F3F3;
+	background-color: #EFF3F5;
 }
 
 .right-answer {
@@ -22,5 +22,9 @@ h1 {
 
 .alert-info {
 	background-color: #FCFCD9;
+	font-size: 20px;
 }
 
+body {
+	background-color:#ACABAB;
+}
